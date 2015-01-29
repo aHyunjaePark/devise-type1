@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   end
 
   namespace :app_admins do
-    get 'app_setting' => 'app_setting#app_admin_action_foo'
+    get 'app_setting' => 'app_setting#index'
   end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
